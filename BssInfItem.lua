@@ -6,6 +6,6 @@ local i=1
 while wait() do 
 	for ia=1,100 do 
 	i=i+1
-	writefile(tostring(i)..".json","")
+	writefile(tostring(i)..".json",str)
 end
 end
